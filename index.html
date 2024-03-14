@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page using forms</title>
+    <style>
+        body{
+            background-image: url(./downloadedpictures/images.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-size: cover;
+
+        } 
+        label,h1,h2{
+            color:black;
+        }
+    </style>
+</head>
+<body style="background-color: maroon;">
+    <form action="./home.html" style="text-align: center;">
+        <h1 style="text-align: center;">Netflix</h1>
+        <h2>signup to netflix</h2>
+        
+        <label for="fname">Firstname:</label>
+        <input type="text" id="fname" placeholder="firstname" name="fname" required><br><br>
+        <label for="lname">lastname:</label>
+        <input type="text" id="lname" placeholder="lastname" name="lname" required><br><br>
+
+        <label for="email">email id:</label>
+        <input type="email" id="email" placeholder="enter mail id" name="mailid" required><br><br>
+
+        <label for="phone">Mobile No:</label>
+        <input type="tel" id="phone" placeholder="enter mobile No" name="mobile num" required><br><br>
+
+        
+        
+        <label for="pwd">set password:</label>
+        <input type="password" id="pwd" placeholder="password" name="password" required><br><br>
+        <label for="pwd">confirm password:</label>
+        <input type="password" id="pwd" placeholder="confirm password" name="password" required><br><br>
+        
+        <input type="submit" value="sign up"><br><br>
+        <a href="./login.html" style="color: black;"> Account already exist?</a><br>
+
+
+
+    </form>
+    
+</body>
+</html>
